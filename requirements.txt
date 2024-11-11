@@ -1,0 +1,5 @@
+scikit-learn==1.5.2
+pymorphy3==2.0.2
+stop-words==2018.7.23
+fastapi==0.115.4
+uvicorn==0.32.0
