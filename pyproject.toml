@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "nlp-topics-clf"
+version = "0.1.0"
+description = ""
+authors = ["Бабчук Виталий Игоревич <babchuk.vit@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+pymorphy3 = "^2.0.2"
+stop-words = "^2018.7.23"
+tqdm = "^4.66.6"
+wordcloud = "^1.9.3"
+fastapi = "^0.115.4"
+requests = "^2.32.3"
+uvicorn = "^0.32.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
